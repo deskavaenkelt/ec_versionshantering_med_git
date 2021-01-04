@@ -3,14 +3,14 @@
 2. Slå ihop utvecklingsgrenar. Till exempel används detta när man vill slå ihop koden man har utvecklat i en "feature"-branch med koden i main-branchen.
 
 3. Merge 2 braches
-    - 'git checkout master' (old) or 'git checkout main' (new)
-    - 'git checkout -b hotfix'
-    - 'code .'
+    - `git checkout master` (old) or `git checkout main` (new)
+    - `git checkout -b hotfix`
+    - `code .`
     - Edit file
-    - 'git commit -m "Change range from 50 to 25"'
-    - 'git checkout master' (old) or 'git checkout main' (new)
-    - 'git merge hotfix'
-    - 'git branch -d hotfix' - Delete branch
+    - `git commit -m "Change range from 50 to 25"`
+    - `git checkout master` (old) or `git checkout main` (new)
+    - `git merge hotfix`
+    - `git branch -d hotfix` - Delete branch
 
 4. Apache SVN
 
@@ -18,14 +18,14 @@
 
 6. En "merge conflict" kan uppstå när två personer editerat samma källkodsfil, speciellt när båda editerat samma rader
 
-7. 'git log'
+7. `git log`
 
 8. Mappen får en dold .git-mapp där i ligger all versionshantering som har med det specifika git repot att göra.
 
 9. För att flera utvecklara kan jobba på separata features/implementeringar samtidigt som main branchen kan hållas ren med fungerande kod.
 
 10. 2 kommandon
-    - 'git pull' - gör inga änringar på servern då de uppdaterar det lokal repot
-    - 'git push' - gör änringar på servern då de uppdaterar repot på servern
+    - `git pull` - gör inga änringar på servern då de uppdaterar det lokal repot
+    - `git push` - gör änringar på servern då de uppdaterar repot på servern
 
 

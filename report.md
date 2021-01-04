@@ -5,67 +5,67 @@
 Jag använde git för att versionhantera projektet.
 
 ## Ej git kommandon
-mkdir ec_versionshantering_med_git && cd ec_versionshantering_med_git
-echo "# ec_versionshantering_med_git" >> README.md
-cat README.md
+`mkdir ec_versionshantering_med_git && cd ec_versionshantering_med_git`  
+`echo "# ec_versionshantering_med_git" >> README.md`  
+`cat README.md`
 
 
 ## git kommandon jag använt
 ### Skapa git mapp och push till github repo
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/deskavaenkelt/ec_versionshantering_med_git.git
-git push -u origin main
+`git init`  
+`git add README.md`  
+`git commit -m "first commit"`  
+`git branch -M main`  
+`git remote add origin https://github.com/deskavaenkelt/ec_versionshantering_med_git.git`  
+`git push -u origin main`  
 
 
 ### Skapa projektfiler med innehåll i __main__.py
-git add .
-git status
-git push
+`git add .`  
+`git status`  
+`git push`  
 
 
 ### Skapa en branch och pusha för att sedan merga på GitHub
-git branch important-changes
-git checkout important-changes
-git status
-git add .
-git commit -m "Change range from 100 to 50"
-git push --set-upstream origin important-changes
-git status
+`git branch important-changes`  
+`git checkout important-changes`  
+`git status`  
+`git add .`  
+`git commit -m "Change range from 100 to 50"`  
+`git push --set-upstream origin important-changes`  
+`git status`  
 
 
 ### Uppdatera main från GitHub som har senaste versionen
-git checkout main
-git pull
+`git checkout main`  
+`git pull`  
 
 
 ### Skrev lite kod i main-branch i filen questions.txt stash och flyttar till annan branch samt gör en lokal merge
-git stash
-git branch questions
-git checkout questions
-git status
-git stash pop
-git add .
-git commit -m "Answered questions"
-git checkout main
-git merge questions
-git branch -d questions
+`git stash`  
+`git branch questions`  
+`git checkout questions`  
+`git status`  
+`git stash pop`  
+`git add .`  
+`git commit -m "Answered questions"`  
+`git checkout main`  
+`git merge questions`  
+`git branch -d questions`  
 
 
 ### Se vilka commits som gjorts
-git log
+`git log`  
 
 
 ### Clone repo
-git clone git@github.com:deskavaenkelt/DevOps-Versionshantering.git
-git branch improvements
-git checkout improvements
-git status
-git add .
-git commit -m "Change range from 50 to 25"
-git push --set-upstream origin improvements
+`git clone git@github.com:deskavaenkelt/DevOps-Versionshantering.git`  
+`git branch improvements`  
+`git checkout improvements`  
+`git status`  
+`git add .`  
+`git commit -m "Change range from 50 to 25"`  
+`git push --set-upstream origin improvements`  
 
 
 ## Vad är fördelen med att använda sig av pull requests när man arbetar i ett team av systemutvecklare?
