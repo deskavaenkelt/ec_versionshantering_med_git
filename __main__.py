@@ -1,5 +1,5 @@
 def main():
-    for i in range(50):
+    for i in range(75):
         print(f'Number: {i}')
 
 
