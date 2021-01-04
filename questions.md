@@ -3,12 +3,12 @@
 2. Slå ihop utvecklingsgrenar. Till exempel används detta när man vill slå ihop koden man har utvecklat i en "feature"-branch med koden i main-branchen.
 
 3. Merge 2 braches
-    - 'git checkout master' or 'git checkout main'
+    - 'git checkout master' (old) or 'git checkout main' (new)
     - 'git checkout -b hotfix'
     - 'code .'
     - Edit file
     - 'git commit -m "Change range from 50 to 25"'
-    - 'git checkout master' or 'git checkout main'
+    - 'git checkout master' (old) or 'git checkout main' (new)
     - 'git merge hotfix'
     - 'git branch -d hotfix' - Delete branch
 
