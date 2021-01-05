@@ -5,3 +5,4 @@ def main():
 
 main()
 print("Hello Lars:")
+print('Mickis wa here')
